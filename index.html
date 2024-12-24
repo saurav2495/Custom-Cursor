@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+      }
+      #name {
+        position: absolute;
+        mix-blend-mode: difference;
+        color: white;
+        transition: scale ease 0.3s;
+        font-size: 80px;
+      }
+      #cursor {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cursor"></div>
+    <h1 id="name">Sheryians</h1>
+    <script src="script.js"></script>
+  </body>
+</html>
